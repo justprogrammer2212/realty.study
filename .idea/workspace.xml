@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06afcde9-77ca-4a3f-8510-92506becaead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/sale-houses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/offers/offers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/offers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="06afcde9-77ca-4a3f-8510-92506becaead" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +173,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="995" />
     <option name="y" value="27" />
     <option name="width" value="925" />
@@ -293,15 +288,15 @@
       <workItem from="1563888671386" duration="855000" />
       <workItem from="1563904995058" duration="1931000" />
       <workItem from="1563907434733" duration="1233000" />
-      <workItem from="1563942102136" duration="1388000" />
+      <workItem from="1563942102136" duration="1884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23978000" />
+    <option name="totallyTimeSpent" value="24474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14911309" />
