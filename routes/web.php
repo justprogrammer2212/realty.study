@@ -19,3 +19,6 @@ Route::get('/offers', function () {
     return view('offers.offers');
 })->name('offers');
 
+Route::get('/offers/sale-houses', function () {
+    return view('offers.sale-houses');
+})->name('sale-houses');
