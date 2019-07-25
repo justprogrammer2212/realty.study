@@ -11,14 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
+Route::get('/', 'IndexController@index')->name('index');
 
-Route::get('/offers', function () {
-    return view('offers.offers');
-})->name('offers');
+Route::get('/offers', 'OffersController@offers')->name('offers');
 
-Route::get('/offers/sale-houses', function () {
-    return view('offers.sale-houses');
-})->name('sale-houses');

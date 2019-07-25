@@ -5,7 +5,7 @@
             <div class="nav-scroller py-1 mb-2">
                 <nav class="nav d-flex justify-content-between">
                     <a class="p-2 text-muted" href="#">Продаж квартир</a>
-                    <a class="p-2 text-muted" href="{{route('sale-houses')}}">Продаж будинків</a>
+                    <a class="p-2 text-muted" href="#">Продаж будинків</a>
                     <a class="p-2 text-muted" href="#">Оренда квартир</a>
                     <a class="p-2 text-muted" href="#">Оренда будинків</a>
                     <a class="p-2 text-muted" href="#">Продаж землі</a>

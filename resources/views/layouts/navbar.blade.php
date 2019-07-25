@@ -7,10 +7,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item {{Request::is('/') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('index')}}">Головна<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{Request::is('offers') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('offers')}}">Оголошення</a>
                 </li>
             </ul>
