@@ -14,4 +14,3 @@
 Route::get('/', 'IndexController@index')->name('index');
 
 Route::get('/offers', 'OffersController@offers')->name('offers');
-
