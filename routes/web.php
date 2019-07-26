@@ -14,3 +14,5 @@
 Route::get('/', 'IndexController@index')->name('index');
 
 Route::get('/offers', 'OffersController@offers')->name('offers');
+
+Route::get('/delete/{parametr}', 'OffersController@delete')->name('delete');

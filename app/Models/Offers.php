@@ -12,10 +12,15 @@ class Offers extends Model
     public static $offer_currency = [self::USD, self::UA];
     protected $table = 'offers';
     protected $guarded = [];
-    public function user() {
-        return $this->hasOne(User::class);
+
+    public function user()
+    {
+        return User::find($this->user_id);
     }
-    public function category() {
-        return $this->hasOne(Categories::class);
+
+    public function category()
+    {
+        return Categories::find($this->category_id);
+
     }
 }
