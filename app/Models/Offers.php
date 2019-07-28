@@ -13,9 +13,9 @@ class Offers extends Model
     protected $table = 'offers';
     protected $guarded = [];
     public function user() {
-        return $this->hasOne(User::class);
+        return User::find($this->user_id);
     }
     public function category() {
-        return $this->hasOne(Categories::class);
+        return Categories::find($this->category_id);
     }
 }

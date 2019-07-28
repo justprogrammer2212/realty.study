@@ -14,3 +14,7 @@
 Route::get('/', 'IndexController@index')->name('index');
 
 Route::get('/offers', 'OffersController@offers')->name('offers');
+
+Route::get('/', 'ArticlesController@articles')->name('index');
+
+Route::get('/offer/{show}', 'OffersController@offer')->name('show');

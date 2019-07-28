@@ -12,4 +12,7 @@ class Articles extends Model
     public function articles() {
         return $this->hasOne(User::class);
     }
+    public function user() {
+        return User::find($this->user_id);
+    }
  }
