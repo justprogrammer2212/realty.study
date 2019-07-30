@@ -29,4 +29,7 @@
         </aside><!-- /.blog-sidebar -->
 
     </div><!-- /.row -->
+    <nav class="pagination">
+        {!!$articles->links();!!}
+    </nav>
 </main><!-- /.container -->
