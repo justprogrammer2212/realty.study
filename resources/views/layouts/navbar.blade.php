@@ -12,6 +12,8 @@
                 </li>
                 <li class="nav-item {{Request::is('offers') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('offers')}}">Оголошення</a>
+                </li> <li class="nav-item {{Request::is('add') ? 'active' : ''}}">
+                    <a class="nav-link" href="{{route('addOffer')}}">Додати оголошення</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">

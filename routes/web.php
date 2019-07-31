@@ -18,3 +18,12 @@ Route::get('/offers', 'OffersController@offers')->name('offers');
 Route::get('/', 'ArticlesController@articles')->name('index');
 
 Route::get('/offer/{show}', 'OffersController@offer')->name('show');
+
+Route::get('/offers/add', 'OffersController@addOffer')->name('addOffer');
+
+Route::get('/offers/edit/{offers}', 'OffersController@editOffer')->name('editOffer');
+
+Route::post('/offers/add', 'OffersController@submitOffer');
+
+Route::post('/offers/edit{offers}', 'OffersController@submitedit');
+
