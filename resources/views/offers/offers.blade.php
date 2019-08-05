@@ -37,8 +37,13 @@
                             <div class="col-auto d-none d-lg-block">
                                 <img src="/images/home.jpg" class="img-thumbnail alt=" ...">
                                 <p class="text-center mt-3 mb-2">
-                                    <a class="btn btn-outline-primary" href="{{route('show', $offer)}}">Читати
-                                        оголошення</a>
+                                    <a class="btn btn-outline-primary" href="{{route('show', $offer)}}">Читати оголошення</a>
+                                </p>
+                                <p class="text-center">
+                                    <a class="btn btn-outline-primary" href="{{route('editOffer', $offer)}}">Редагувати оголошення</a>
+                                </p>
+                                <p class="text-center">
+                                    <a class="btn btn-outline-danger" href="{{route('deleteOffer', $offer)}}">Видалити оголошення</a>
                                 </p>
                             </div>
                         </div>

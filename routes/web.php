@@ -17,4 +17,31 @@ Route::get('/offers', 'OffersController@offers')->name('offers');
 
 Route::get('/', 'ArticlesController@articles')->name('index');
 
+
 Route::get('/offer/{show}', 'OffersController@offer')->name('show');
+
+Route::get('/offers/add', 'OffersController@addOffer')->name('addOffer');
+
+Route::post('/offers/add', 'OffersController@submitOffer');
+
+Route::get('/offers/edit/{offers_id}', 'OffersController@editOffer')->name('editOffer');
+
+Route::post('/offers/edit/{offers_id}', 'OffersController@updateOffer')->name('updateOffer');
+
+Route::get('/offers/delete/{offers_id}', 'OffersController@deleteOffer')->name('deleteOffer');
+
+
+Route::get('/articles/add', 'ArticlesController@addArticle')->name('addArticle');
+
+Route::post('/articles/add', 'ArticlesController@submitArticle');
+
+
+Route::get('/articles/edit/{article_id}', 'ArticlesController@editArticle')->name('editArticle');
+
+Route::post('/articles/edit/{article_id}', 'ArticlesController@submitedit')->name('updateArticle');
+
+Route::get('/articles/delete/{id_articles}', 'ArticlesController@deleteArticle')->name('deleteArticle');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
