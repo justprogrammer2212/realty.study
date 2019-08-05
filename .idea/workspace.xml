@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06afcde9-77ca-4a3f-8510-92506becaead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Request/ArticleRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Request/OffersRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/articles/article-add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/articles/article-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/offers-add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/offers-edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OffersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OffersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-news.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/offers/offers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/offers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Request" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test.loc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -156,11 +141,11 @@
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Request" />
-      <recent name="$PROJECT_DIR$/resources/views/offers" />
-      <recent name="$PROJECT_DIR$/resources/views/articles" />
       <recent name="$PROJECT_DIR$/database/factories" />
+      <recent name="$PROJECT_DIR$/resources/views/offers" />
       <recent name="$PROJECT_DIR$/resources/views/layouts" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,12 +208,7 @@
       <workItem from="1564466192567" duration="28000" />
       <workItem from="1564466229744" duration="1529000" />
       <workItem from="1564479379392" duration="62000" />
-      <workItem from="1564479824585" duration="808000" />
-      <workItem from="1564550605635" duration="662000" />
-      <workItem from="1564637921718" duration="5325000" />
-      <workItem from="1564732935561" duration="18719000" />
-      <workItem from="1564905851626" duration="1694000" />
-      <workItem from="1564990634276" duration="8569000" />
+      <workItem from="1564479824585" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1564380457752</created>
@@ -237,14 +217,7 @@
       <option name="project" value="LOCAL" />
       <updated>1564380457752</updated>
     </task>
-    <task id="LOCAL-00002" summary="forms">
-      <created>1564480608612</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564480608612</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +238,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <MESSAGE value="forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

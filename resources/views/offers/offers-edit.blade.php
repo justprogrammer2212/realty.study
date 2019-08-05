@@ -47,8 +47,13 @@
                         <label for="exampleInputPassword1">Users</label>
                         <select name="user" class="form-control">
                             @foreach($users as $user)
+<<<<<<< HEAD
                                 <option {{$offers_id->user_id == $user->id ? 'selected' : ''}} value="{{$user->id}}">{{$user->name}}</option>
                                 @endforeach
+=======
+                                <option {{$offers->user_id == $user->id ? 'selected' : ''}} value="{{$user->id}}">{{$user->name}}</option>
+                            @endforeach
+>>>>>>> origin/master
                         </select>
                         <small id="emailHelp" class="form-text text-muted">users</small>
                     </div>
@@ -58,4 +63,8 @@
 
         </div>
     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 @stop
