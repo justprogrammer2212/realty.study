@@ -12,8 +12,9 @@ use Illuminate\Http\Request;
 
 class OffersController extends Controller
 {
+//$dogs = Dogs::orderBy('id', 'desc')->take(5)->get();
     public function offers() {
-        $offers = Offers::orderBy('id', 'DESC')->paginate(10);
+        $offers = Offers::Where('id', '<', '10')->select('title','price','description')->limit(2)->get();
         $categories = Categories::get();
         return view('offers.offers', compact('offers','categories'));
     }

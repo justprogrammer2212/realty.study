@@ -31,9 +31,14 @@ Route::post('/offers/edit/{offers_id}', 'OffersController@updateOffer')->name('u
 Route::get('/offers/delete/{offers_id}', 'OffersController@deleteOffer')->name('deleteOffer');
 
 
-Route::get('/articles/add', 'ArticlesController@addArticle')->name('addArticle');
+Route::group(['prefix' => '/articles'], function() {
 
-Route::post('/articles/add', 'ArticlesController@submitArticle');
+    Route::get('/add', 'ArticlesController@addArticle')->name('addArticle')->middleware('check_auth');
+
+    Route::post('/add', 'ArticlesController@submitArticle')->middleware('check_auth');
+
+});
+
 
 
 Route::get('/articles/edit/{article_id}', 'ArticlesController@editArticle')->name('editArticle');

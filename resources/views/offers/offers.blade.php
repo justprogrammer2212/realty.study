@@ -53,7 +53,7 @@
 
         </div>
         <nav class="pagination justify-content-center">
-            {!!$offers->links();!!}
+{{--            {!!$offers->links();!!}--}}
         </nav>
 <div class="container">
     <div class="row">
