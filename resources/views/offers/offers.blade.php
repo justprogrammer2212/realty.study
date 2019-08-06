@@ -37,9 +37,13 @@
                             <div class="col-auto d-none d-lg-block">
                                 <img src="/images/home.jpg" class="img-thumbnail alt=" ...">
                                 <p class="text-center mt-3 mb-2">
-                                    <a class="btn btn-outline-primary" href="{{route('show', $offer)}}">Читати
-                                        оголошення</a>
+                                    <a class="btn btn-outline-primary" href="{{route('show', $offer)}}">Читати оголошення</a>
+                                </p>
+                                <p class="text-center">
                                     <a class="btn btn-outline-primary" href="{{route('editOffer', $offer)}}">Редагувати оголошення</a>
+                                </p>
+                                <p class="text-center">
+                                    <a class="btn btn-outline-danger" href="{{route('deleteOffer', $offer)}}">Видалити оголошення</a>
                                 </p>
                             </div>
                         </div>
@@ -51,6 +55,51 @@
         <nav class="pagination justify-content-center">
             {!!$offers->links();!!}
         </nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">title</label>
+                    <input type="text" class="form-control"  placeholder="Enter title">
+                    <small id="emailHelp" class="form-text text-muted">title</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Price</label>
+                    <input type="text" class="form-control" placeholder="Price">
+                    <small id="emailHelp" class="form-text text-muted">price</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Currency</label>
+                    <input type="text" class="form-control" placeholder="Currency">
+                    <small id="emailHelp" class="form-text text-muted">currency</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Description</label>
+                    <textarea class="form-control"></textarea>
+                    <small id="emailHelp" class="form-text text-muted">description</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">title</label>
+                    <input type="text" class="form-control"  placeholder="Enter title">
+                    <small id="emailHelp" class="form-text text-muted">title</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Description</label>
+                    <textarea class="form-control"></textarea>
+                    <small id="emailHelp" class="form-text text-muted">description</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
     </main>
 
 @stop

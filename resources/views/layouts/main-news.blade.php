@@ -9,6 +9,12 @@
                 <h2 class="blog-post-title">{{$art->title}}</h2>
                 <p class="blog-post-meta">{{$art->created_at}} <a href="#">{{$art->user()->name}}</a></p>
                 <p>{{$art->description}}</p>
+                <p>
+                    <a class="btn btn-outline-warning" href="{{route('editArticle', $art)}}">Редагувати статтю</a>
+                </p>
+                <p>
+                    <a class="btn btn-outline-danger" href="{{route('deleteArticle', $art)}}">Видалити статтю</a>
+                </p>
             </div><!-- /.blog-post -->
             @endforeach
         </div><!-- /.blog-main -->
