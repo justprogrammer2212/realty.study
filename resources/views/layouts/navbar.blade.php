@@ -12,12 +12,17 @@
                 </li>
                 <li class="nav-item {{Request::is('offers') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('offers')}}">Оголошення</a>
-                </li> <li class="nav-item {{Request::is('add') ? 'active' : ''}}">
+                </li>
+                @if(Auth::user())
+                <li class="nav-item {{Request::is('add') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('addOffer')}}">Додати оголошення</a>
                 </li>
+                @endif
+                @if(Auth::user())
                 <li class="nav-item {{Request::is('/articles/add') ? 'active' : ''}}">
                     <a class="nav-link" href="{{route('addArticle')}}">Додати статтю</a>
                 </li>
+                    @endif
             </ul>
             <ul class="navbar-nav mr-4">
                 <!-- Authentication Links -->
