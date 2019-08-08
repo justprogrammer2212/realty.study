@@ -20,9 +20,9 @@ Route::get('/', 'ArticlesController@articles')->name('index');
 
 Route::get('/offer/{show}', 'OffersController@offer')->name('show');
 
-Route::get('/offers/add', 'OffersController@addOffer')->name('addOffer')->middleware('check_auth');
+Route::get('/offers/add', 'OffersController@addOffer')->name('addOffer');
 
-Route::post('/offers/add', 'OffersController@submitOffer')->middleware('check_auth');
+Route::post('/offers/add', 'OffersController@submitOffer');
 
 Route::get('/offers/edit/{offers_id}', 'OffersController@editOffer')->name('editOffer');
 
